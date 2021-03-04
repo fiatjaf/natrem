@@ -13,7 +13,7 @@ The server is just some normal Websocket server, reacheable and identified by a 
 
 a user could open its _client_ and type the URL of some Natrem-capable server in its URL box, say, `natrem:echoservice.com`, then the client will open a Websocket connection to `wss://echoservice.com/natrem`.
 
-The_server_, upon connection, may send a message that says
+The _server_, upon connection, may send a message that says
 
 ```json
 [
@@ -41,7 +41,7 @@ Which will cause the _client_ to render a text view with these contents written 
 
 ### Why this?
 
-Because web browsers are not the way to server simple applications that interact with a server. Web applications, as they are called, are hard to write, take a long time, even when they are very simple, and the result is a heavy, slow program that infects users' computers with unwanted arbitrary code, and in the meantime the push for more and more functionality turns browsers into enormously bloated machines full of bugs that no one can implement from scratch ever again.
+Because web browsers are not the best way to serve simple applications that interact with a server. Web applications, as they are called, are hard to write, take a long time to be finished, even when they are very simple, and the result is a heavy, slow program that infects users' computers with unwanted arbitrary code, and in the meantime the push for more and more functionality turns browsers into enormously bloated machines full of bugs that no one can implement from scratch ever again so we're left with only Chrome.
 
 ### Are you reinventing browsers?
 
