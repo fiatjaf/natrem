@@ -43,6 +43,8 @@ Which will cause the _client_ to render a text view with these contents written 
 
 Because web browsers are not the best way to serve simple applications that interact with a server. Web applications, as they are called, are hard to write, take a long time to be finished, even when they are very simple, and the result is a heavy, slow program that infects users' computers with unwanted arbitrary code, and in the meantime the push for more and more functionality turns browsers into enormously bloated machines full of bugs that no one can implement from scratch ever again so we're left with only Chrome.
 
+In other words, ["the web is unimplementable"](https://twitter.com/__anp__/status/1117828315715260416).
+
 ### Are you reinventing browsers?
 
 Yes and no. Yes in the sense that browsers are also just-in-time renderers of stuff servers send to them. No in the sense that these clients are simple enough for anyone to implement, they're safe, fast, and come with interactive components out-of-the-box -- differently from browsers, in which a simple button that you can click and it will change something in the screen or make a request to a server can take hours to be written and many megabytes of JavaScript dependencies.
